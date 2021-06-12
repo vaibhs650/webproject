@@ -1,0 +1,17 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin: 15px 0px ;
+}
+.cow{
+    border: 2px solid black;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 19px auto;
+    align-items: center;
+    font-size: 30px;
+
+}

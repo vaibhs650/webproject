@@ -1,0 +1,44 @@
+doctype html
+html 
+   head
+    title Vs Academy
+    style 
+      include ../static/style.css     
+   body
+    nav#navbar 
+       ul
+          div#logo 
+           img(src="./static/img4.webp", alt="", srcset="")
+           | Vs
+          li #[a(href='/') Home] 
+          li #[a(href='/') Services] 
+          li #[a(href='/') About ]
+          li #[a(href='/') Class Info] 
+          li #[a(href='/') Contact Us]
+    marquee(behavior="", direction="left") Let's Dance With Us
+             
+    
+    section#intro 
+       div.lar Welcome TO Vs Dance Academy
+       div.small Eat Sleep Dance
+    section#sponsor 
+       h2 Our Partners
+       div.card 
+        h1 Dance Plus
+        img(src="./static/dplus.webp", alt="", srcset="")
+        p Thanks Dance Plus team for Being our Partner. 
+       div.card 
+        h1 Vs_store
+        img(src="./static/vs.jpg", alt="", srcset="")
+        p Thanks Vs_store team for Being our Partner.
+       div.card 
+        h1 Dance India Dance
+        img(src="./static/did.webp", alt="", srcset="")
+        p Thanks Dance India Dance team for Being our Partner.
+    footer#footer 
+       h1 Join Our Academy    
+       p Use Cuponcode 'VS' For Admission
+       
+    
+    script 
+      include ../static/script.js

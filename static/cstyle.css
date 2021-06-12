@@ -1,0 +1,32 @@
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 17px;
+    margin: 14px auto;
+}
+textarea{
+    border: 2px solid black;
+    display: flex;
+    margin: 2px auto;
+    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 38px auto;
+    font-size: 30px;
+    background-color: sienna;
+    color: white;
+    cursor: pointer;
+}
